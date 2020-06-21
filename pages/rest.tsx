@@ -18,6 +18,6 @@ export default class rest extends Component<Props> {
   }
 
   render() {
-    return <div>{this.props.response.coord.lon}</div>;
+    return <div>{`Result : ${JSON.stringify(this.props.response)}`}</div>;
   }
 }
